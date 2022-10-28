@@ -59,7 +59,7 @@ export const Casting = ({ persons }) => {
                 onClick={(e) => displayPerson(e, person)}
               >
                 <h3>{person.person.name}</h3>
-                <img src={person.person.image.medium} />
+                <img src={person.person.image?.medium} />
               </div>
             );
           } else {

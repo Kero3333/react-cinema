@@ -20,7 +20,7 @@ export const Person = ({ person }) => {
           <span>Character played : {person.character.name}</span>
           <a href={person.character.url}>
             <img
-              src={person.character.image.medium}
+              src={person.character.image?.medium}
               alt={person.character.name}
             />
           </a>

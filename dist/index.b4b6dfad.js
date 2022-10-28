@@ -31713,7 +31713,7 @@ const Casting = ({ persons  })=>{
                                     columnNumber: 17
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: person.person.image.medium
+                                    src: person.person.image?.medium
                                 }, void 0, false, {
                                     fileName: "src/components/casting/Casting.jsx",
                                     lineNumber: 62,
@@ -31853,7 +31853,7 @@ const Person = ({ person  })=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: person.character.url,
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: person.character.image.medium,
+                                src: person.character.image?.medium,
                                 alt: person.character.name
                             }, void 0, false, {
                                 fileName: "src/components/casting/components/Person.jsx",
@@ -32019,6 +32019,7 @@ parcelHelpers.export(exports, "ListResult", ()=>ListResult);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
 const ListResult = ({ results  })=>{
+    console.log(results);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "results",
         children: results.map((el, index)=>{
@@ -32031,32 +32032,32 @@ const ListResult = ({ results  })=>{
                             children: el.show.name
                         }, void 0, false, {
                             fileName: "src/components/search/components/ListResult.jsx",
-                            lineNumber: 10,
+                            lineNumber: 11,
                             columnNumber: 15
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: el.show.image.medium,
+                            src: el.show.image?.medium,
                             alt: el.show.name
                         }, void 0, false, {
                             fileName: "src/components/search/components/ListResult.jsx",
-                            lineNumber: 11,
+                            lineNumber: 12,
                             columnNumber: 15
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/search/components/ListResult.jsx",
-                    lineNumber: 9,
+                    lineNumber: 10,
                     columnNumber: 13
                 }, undefined)
             }, index, false, {
                 fileName: "src/components/search/components/ListResult.jsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 11
             }, undefined);
         })
     }, void 0, false, {
         fileName: "src/components/search/components/ListResult.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
