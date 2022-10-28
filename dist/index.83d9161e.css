@@ -1,0 +1,136 @@
+.home {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.home .results {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.home .results .result {
+  text-align: center;
+  border: 1px solid #a2a2a2;
+  border-radius: 10px;
+  margin: 1rem;
+  display: flex;
+}
+
+.home .results .result a {
+  color: #000;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.detail {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10%;
+  display: flex;
+}
+
+.detail > h1 {
+  font-size: 4rem;
+}
+
+.note {
+  align-items: center;
+  font-size: 2rem;
+  display: flex;
+}
+
+.note > h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.detail > img {
+  width: -webkit-fill-available;
+  margin: 0 10%;
+}
+
+.summary {
+  text-align: center;
+}
+
+.summary p {
+  text-align: left;
+}
+
+.casting {
+  text-align: center;
+}
+
+.persons {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.persons > * {
+  margin: 1rem;
+}
+
+.person:hover {
+  cursor: pointer;
+}
+
+.person-infos {
+  background: #faebd7;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  position: fixed;
+  inset: 10%;
+}
+
+.person-infos .character {
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  display: flex;
+}
+
+.character img {
+  width: fit-content;
+  background: #fff;
+  border: 1px solid #969696;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.person-infos h3 {
+  font-size: 3rem;
+}
+
+.main-infos {
+  font-size: 2rem;
+}
+
+.nationality {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nationality img {
+  width: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .detail > img {
+    margin: 10%;
+  }
+
+  .persons {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=index.83d9161e.css.map */
