@@ -31776,29 +31776,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Person", ()=>Person);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
 const Person = ({ person  })=>{
-    _s();
-    const [isClicked, setIsClicked] = (0, _react.useState)(false);
-    // useEffect(() => {
-    //   if (document.querySelector(".person-infos") !== undefined) {
-    //     const refreshIsClicked = (e) => {
-    //       isClicked ? setIsClicked(false) : setIsClicked(true);
-    //       document
-    //         .querySelector("#root")
-    //         .removeEventListener("click", refreshIsClicked);
-    //     };
-    //     document
-    //       .querySelector("#root")
-    //       .addEventListener("click", refreshIsClicked);
-    //   }
-    // }, [isClicked]);
     const handleClick = (e)=>{
         e.stopPropagation();
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: isClicked ? "" : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "person-infos",
             onClick: handleClick,
             children: [
@@ -31806,8 +31789,8 @@ const Person = ({ person  })=>{
                     children: person.person.name
                 }, void 0, false, {
                     fileName: "src/components/casting/components/Person.jsx",
-                    lineNumber: 30,
-                    columnNumber: 11
+                    lineNumber: 9,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "main-infos",
@@ -31819,8 +31802,8 @@ const Person = ({ person  })=>{
                             ]
                         }, void 0, true, {
                             fileName: "src/components/casting/components/Person.jsx",
-                            lineNumber: 32,
-                            columnNumber: 13
+                            lineNumber: 11,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nationality",
@@ -31832,27 +31815,27 @@ const Person = ({ person  })=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/casting/components/Person.jsx",
-                                    lineNumber: 34,
-                                    columnNumber: 15
+                                    lineNumber: 13,
+                                    columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     src: `https://countryflagsapi.com/png/${person.person?.country.code}`
                                 }, void 0, false, {
                                     fileName: "src/components/casting/components/Person.jsx",
-                                    lineNumber: 35,
-                                    columnNumber: 15
+                                    lineNumber: 14,
+                                    columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/casting/components/Person.jsx",
-                            lineNumber: 33,
-                            columnNumber: 13
+                            lineNumber: 12,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/casting/components/Person.jsx",
-                    lineNumber: 31,
-                    columnNumber: 11
+                    lineNumber: 10,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "character",
@@ -31864,8 +31847,8 @@ const Person = ({ person  })=>{
                             ]
                         }, void 0, true, {
                             fileName: "src/components/casting/components/Person.jsx",
-                            lineNumber: 41,
-                            columnNumber: 13
+                            lineNumber: 20,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: person.character.url,
@@ -31874,29 +31857,28 @@ const Person = ({ person  })=>{
                                 alt: person.character.name
                             }, void 0, false, {
                                 fileName: "src/components/casting/components/Person.jsx",
-                                lineNumber: 43,
-                                columnNumber: 15
+                                lineNumber: 22,
+                                columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/casting/components/Person.jsx",
-                            lineNumber: 42,
-                            columnNumber: 13
+                            lineNumber: 21,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/casting/components/Person.jsx",
-                    lineNumber: 40,
-                    columnNumber: 11
+                    lineNumber: 19,
+                    columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/casting/components/Person.jsx",
-            lineNumber: 29,
-            columnNumber: 9
+            lineNumber: 8,
+            columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
-_s(Person, "+2jvnzgqyS4sm44z1s1whgWD4Tg=");
 _c = Person;
 var _c;
 $RefreshReg$(_c, "Person");
@@ -31906,7 +31888,7 @@ $RefreshReg$(_c, "Person");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"aufND":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aufND":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$257a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
