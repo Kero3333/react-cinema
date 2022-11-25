@@ -31660,7 +31660,7 @@ var _s = $RefreshSig$();
 const Casting = ({ persons  })=>{
     _s();
     // see more of the casting
-    const [buttonIsClicked, setButtonIsClicked] = (0, _react.useState)(false);
+    const [buttonIsClicked, setButtonIsClicked] = (0, _react.useState)(true);
     const [maxCast, setMaxCast] = (0, _react.useState)(3);
     const handleClick = (e)=>{
         buttonIsClicked ? setButtonIsClicked(false) : setButtonIsClicked(true);
@@ -31742,7 +31742,7 @@ const Casting = ({ persons  })=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 onClick: handleClick,
-                children: buttonIsClicked ? "See less" : "See more"
+                children: buttonIsClicked ? "See more" : "See less"
             }, void 0, false, {
                 fileName: "src/components/casting/Casting.jsx",
                 lineNumber: 75,
@@ -31755,7 +31755,7 @@ const Casting = ({ persons  })=>{
         columnNumber: 5
     }, undefined);
 };
-_s(Casting, "ihjdQYo7EzwZUVDbN/HSC5qgQMM=");
+_s(Casting, "EQ33/ACSF4KSkuabyrWObFgbs6g=");
 _c = Casting;
 var _c;
 $RefreshReg$(_c, "Casting");

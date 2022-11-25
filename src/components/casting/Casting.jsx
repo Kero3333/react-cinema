@@ -3,7 +3,7 @@ import { Person } from "./components/Person";
 
 export const Casting = ({ persons }) => {
   // see more of the casting
-  const [buttonIsClicked, setButtonIsClicked] = useState(false);
+  const [buttonIsClicked, setButtonIsClicked] = useState(true);
   const [maxCast, setMaxCast] = useState(3);
 
   const handleClick = (e) => {
@@ -73,7 +73,7 @@ export const Casting = ({ persons }) => {
         )}
       </div>
       <button onClick={handleClick}>
-        {buttonIsClicked ? "See less" : "See more"}
+        {buttonIsClicked ? "See more" : "See less"}
       </button>
     </div>
   );
